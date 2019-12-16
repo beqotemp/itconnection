@@ -4,6 +4,7 @@
 @import "utils/fonts";
 @import "utils/reset";
 
+
 html {
   line-height: $mainLineHeight;
 	font-size: $mainFontSize;
@@ -48,11 +49,11 @@ section, .section {
   @media screen and (max-width: $desktopWidth) {
     padding: 36px 0;
   }
-  @media screen and (max-width: $desktopWidth) {
+  @media screen and (max-width: $tableWidth) {
     padding: 28px 0;
   }
-  @media screen and (max-width: $desktopWidth) {
-    padding: 20px 0;
+  @media screen and (max-width: $phoneWidth) {
+    padding: 40px 0;
   }
 }
 .Site {
@@ -65,33 +66,12 @@ section, .section {
 }
 
 
-.mam {
-  display: flex;
-  align-items:center;
-  justify-content:center;
-
-}
-.el {
-  height: 50px;
-  width: 50px;
-  background-color: black;
-}
-.container {
-  width: 100%;
-  flex: 0 0 auto;
-  position: relative;
-  margin: 0 auto;
-  max-width: $desktopWidth;
-  @media screen and (max-width: $smDesktopWidth) {
-    max-width: tableWidth;
-  }
-  @media screen and (max-width: $tableWidth) {
-    max-width: phoneWidth;
-  }
-  @media screen and (max-width: $phoneWidth) {
-    max-width: smPhoneWidth;
-  }
-}
-
 // Modules
 // @import "modules/my-module.scss";
+
+@import 'modules/header.scss';
+@import 'modules/first-page.scss';
+@import 'modules/abonent.scss';
+@import 'modules/video.scss';
+@import 'modules/cartridge.scss';
+@import 'modules/blog.scss';

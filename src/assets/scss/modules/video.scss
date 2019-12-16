@@ -1,0 +1,331 @@
+.video-p {
+	&__hero {
+		
+		@media screen and (max-width: $phoneWidth) {
+			margin-top: 0;
+		}
+		& .row {
+			& .col {
+
+				@media screen and (max-width: $phoneWidth) {
+					-webkit-box-flex: 0;
+				    -ms-flex: 0 0 100%;
+				    flex: 0 0 100%;
+				    max-width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.st {
+	&__wrapper {
+		margin-top: 45px;
+	}
+	&__item {
+	    padding-bottom: 23px;
+    	margin-bottom: 30px;
+    	border-bottom: 1px solid #dad7d2;
+	}
+	&__item-title {
+		padding-left: 15px;
+		border-left:5px solid;
+		border-color: #ef4945;
+		padding:20px 15px;
+		& span {
+			font-family: $ROB;
+			font-size: rem(45);	
+			line-height: 45px;
+		    color: #ef4945;
+		    @media screen and (max-width: $phoneWidth) {
+				font-size: 29px;
+				line-height: 27px;
+  			}
+		}
+	}
+	&__item-body {
+		margin-top: 20px;
+		& p {
+			font-family: $ROB;
+			font-size: 16px;
+			color: #333333;
+		}
+	}
+	&__choice {
+		margin-top: 20px;
+		display: flex;
+		flex-direction:row;
+		@media screen and (max-width: $phoneWidth) {
+			flex-direction: column;
+  		}
+	}
+
+	&__half {
+		width: 50%;
+		padding-right: 25px;
+		@media screen and (max-width: $phoneWidth) {
+			width: 100%;
+  		}
+		& h5 {
+			font-family: $ROBB;
+			font-size: 16px;
+			color: #333333;
+		}
+		& ul {
+		    padding-left: 24px;
+		    margin-top: 13px;
+			& li {
+				color: #ef4945;
+			    list-style-type: initial;
+				
+				& span {
+					font-family: $ROB;
+					font-size: 18px;
+					line-height: 27px;
+					color: #666666;	
+				}
+			}
+		}
+	}
+	&__full {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	&__box-label {
+		pointer-events: none;
+		user-select:none;
+		
+	}
+	&__ot {
+		
+		
+		background-color: #343535;
+		text-align: center;
+		display: flex;
+		align-items:center;
+		justify-content:center;
+		margin: 22px -30px;
+		border-radius: 0 15px;
+		& span {
+			font-family: $ROBB;
+			font-size: 26px;
+			line-height: 50px;
+			background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,233,169,1) 4%,rgba(255,207,71,1) 8%,rgba(255,207,71,1) 16%,rgba(255,209,80,1) 20%,rgba(255,227,148,1) 36%,rgba(254,229,161,1) 40%,rgba(254,229,169,1) 44%,rgba(254,228,169,1) 48%,rgba(254,220,157,1) 52%,rgba(253,206,133,1) 56%,rgba(251,161,44,1) 68%,rgba(251,151,22,1) 72%,rgba(251,149,17,1) 76%,rgba(251,179,17,1) 88%,rgba(251,179,17,1) 100%); 
+			color:transparent;
+			-webkit-background-clip: text;
+			background-clip: text;
+
+		}		
+		& b {
+			font-family: $ROBB;
+			font-size: 36px;
+			@media screen and (max-width: $phoneWidth) {
+				font-size: 31px;
+			}
+		}
+	}
+}
+
+.usage-example {
+	padding-bottom: 80px;
+}
+.ue {
+	&__pic {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	    background-image: url(/assets/img/bgs/bgv.png);
+	    background-size: contain;
+	    height: 100%;
+	    background-position-y: 50%;
+	    width: 500px;
+	    background-repeat: no-repeat;
+	    @media screen and (max-width: $phoneWidth) {
+			display: none;
+		}
+	}
+	&__wrapper {
+		margin-top: 40px;
+		@media screen and (max-width: $phoneWidth) {
+			padding-top: 20px;
+			margin-top: 0px;
+		}
+	}
+
+	&__item {
+		text-align: center;
+		@media screen and (max-width: $phoneWidth) {
+			padding-top: 30px;
+		}
+		& iframe {
+	    	height: 250px;
+    		width: auto;
+    		margin: 0 auto;
+    		@media screen and (max-width: $phoneWidth) {
+				width: 100%;
+			}
+		}
+
+		& span {
+			font-family: $ROBB;
+			
+			font-size: 18px;
+		}
+	}
+	&__item-intro {
+		padding-top: 10px;
+	}
+}
+
+.get {
+	background-color: #f5f4f3;
+    padding: 80px 0 100px;
+    @media screen and (max-width: $phoneWidth) {
+		padding: 40px 0 10px;
+	}
+	&__wrapper {
+	    margin-top: 80px;
+	    @media screen and (max-width: $phoneWidth) {
+			margin-top: 50px;
+		}
+	}
+}
+.g-item {
+	margin-bottom: 70px;
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	@media screen and (max-width: $phoneWidth) {
+		margin-bottom: 57px;
+	}
+	&__square {
+	    min-width: 70px;
+	    width: 70px;
+    	height: 67px;
+    	background: #E7E6E3;
+    	display: flex;
+    	align-items:center;
+    	justify-content:center;
+    	border-radius: 0 15px;
+	}
+	&__title {
+		display: flex;
+		flex-direction:column;
+		margin-left: 23px;
+		& span {
+			color: #333333;
+			&:nth-child(1) {
+				font-family: $ROBB;
+				font-size: 20px;
+    			letter-spacing: 0.7px;
+			    line-height: 19px;
+			}
+			&:nth-child(2){
+				font-family: $ROB;
+			    font-size: 17px;
+    			margin-top: 4px;
+
+			}
+		}
+	}
+}
+.process {
+	background-image: url(/assets/img/bgs/img9.jpg);
+	background-size: cover;
+	&__title {
+		font-family: $ROBB;
+		font-size: rem(55);
+		color: #EF4945;
+		text-align: center;
+		 @media screen and (max-width: $phoneWidth) {
+			font-size: 35px;
+		}
+	}
+	&__wrapper {
+		margin-top: 57px;
+		display: flex;
+		flex-direction:column;
+		justify-content:center;
+	}
+	&__item {
+		padding-bottom: 43px;
+		position: relative;
+		&:nth-child(1) {
+			&:after{
+				content: '';
+			    display: block;
+			    clear: both;
+			    position: absolute;
+			    top: 75px;
+			    left: -81px;
+			    width: 1px;
+			    height: 100%;
+			    background: #A54444;	
+			}
+		}
+		&:nth-child(n+2) {
+			&:after {
+			    content: '';
+			    display: block;
+			    clear: both;
+			    position: absolute;
+			    top: 0;
+			    left: -81px;
+			    width: 1px;
+			    height: 140%;
+			    background: #A54444;
+			}	
+		}
+		&:nth-child(5) {
+			&:after {
+				content: '';
+			    display: none;
+			}
+		}
+		
+	}
+	&__item-title {
+		position: relative;
+		margin-top: 8px;
+		&:after {
+			content: '';
+			position: absolute;
+			width: 65px;
+			height: 10px;
+			background-color: #EF4945;
+			bottom: -14px;
+			left: 0;
+		}
+		& em {
+			position: absolute;
+			display: flex;
+			align-items:center;
+			justify-content:center;
+			left: -103px;
+			font-family: $ROBS;
+			color: #fff;
+			height: 42px;
+			width: 44px;
+			font-size: 36px;
+			font-style: normal;
+			background-color: #EF4945;
+			border-radius: 0 15px;
+			z-index: 2;
+		}
+		& span {
+			font-family: $ROBB;
+			font-size: 24px;
+			color: #fff;
+			text-transform: uppercase;
+		}
+	}
+	&__body {
+		margin-top: 23px;
+		& p {
+			font-family: 20px;
+			color: #fff;
+			opacity: .6;
+			font-family: $ROB;
+		}
+	}
+}

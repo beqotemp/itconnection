@@ -1,0 +1,111 @@
+.b-slider {
+	&__item {
+		height: 100%;
+		& img {
+			max-height: 100px;
+			margin: 0 auto;
+		}
+	}
+}
+.cards {
+	&__card {
+		border-radius: 0 17px;
+		overflow: hidden;
+		@media screen and (max-width: $smDesktopWidth ) {
+			margin-top: 40px;
+		}
+	}
+	&__card-head {
+		background-color: #ff3934;
+		display: flex;
+		align-items:center;
+		height: 92px;
+		padding: 30px;
+		& span {
+			font-family: $ROBB;
+			font-size: 24px;
+			color: #fff;
+			text-transform: uppercase;
+			margin-left: 20px;
+		}
+
+	}
+	&__card-body {
+		padding: 16px 16px 16px 26px;
+		background-color: #343535;
+		& p {
+			font-size: 16px;
+			font-family: $ROB;
+			color: #FCFCFC;
+			& span {
+				color:#FF615D;
+				&.cartridge-gift {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+.offer {
+	&__wrapper {
+		width: 100%;
+		position: relative;
+
+	}
+	&__pic {
+		background: url(/assets/img/bgs/bg16.jpg) no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		border-radius: 0 15px;
+	}
+	&__form {
+		border-radius: 0 0 0 15px;
+		background-color: #FF6A00;
+		display: flex;
+		flex-direction:row;
+		align-items:center;
+		padding: 33px;
+		@media screen and (max-width: $smDesktopWidth) {
+			flex-direction:column;
+  		}
+	}
+	&__form-title {
+		display: flex;
+		flex-direction:column;
+		& span {
+			color: #fff;
+			display: block;
+			&:nth-child(1) {
+				font-family: $ROBB;
+				font-size: rem(38);
+				margin-bottom: 26px;
+				line-height: 38px;
+			}
+			&:nth-child(2) {
+				font-family: $ROBB;
+				font-size: rem(75);
+				text-transform: uppercase;
+				margin-bottom: 2px;
+				line-height: 75px;
+			}
+			&:nth-child(3) {
+				font-family: $ROBB;
+				font-size: rem(45);
+				text-transform: uppercase;
+				line-height: 45px;
+			}
+		}
+	}
+	&__form-button {
+		margin-left: 120px;
+		display: flex;
+		align-items:center;
+		@media screen and (max-width: $smDesktopWidth) {
+			margin-left: unset;
+			margin-top: 40px;
+  		}
+	}
+}
+		

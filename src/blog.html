@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Webpack</title>
+</head>
+<body class="Site">
+
+  <!-- main wrapper -->
+  <div class="wrapper">
+
+    <nav class="navbar" id="myHeader">
+        <div class="navbar__first-lvl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="first-lvl__body">
+                            
+                        
+                            <div class="first-lvl__logo">
+                                <img src="assets/img/logo.png" alt="">
+                            </div>
+                        
+                    
+                            <div class="first-lvl__city-choice">
+                                <div class="location show-trg"></div>
+                                <span class="city-ask show-trg">Ваш город &nbsp;</span>
+                                <span class="show-trg">Москва</span>
+                                <div class="dropdown-triangle hide show-trg"></div>
+                                <span class="city-ask">?</span>
+                                <div class="city-ask__block city-ask">
+                                    <button id="city-yes">
+                                        <span>Да</span>
+                                    </button>
+                                    <button id="city-no">
+                                        <span>Нет</span>
+                                    </button>
+                                </div>
+
+                                <div id="city-choice-block" class="city-choice-block">
+                                    <span class="show-trg">
+                                        <div class="location"></div>
+                                        Выберите свой город
+                                        <div class="dropdown-triangle"></div>
+                                    </span>
+                                    <ul>
+                                        <li><a href="#"class="show-trg">Москва</a></li>
+                                        <li><a href="#"class="show-trg">Екатеринбург</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                    
+                    
+                            <div class="first-lvl__navigation">
+                                <ul>
+                                    <li>Сервисный центр</li>
+                                    <li>Майнинг</li>
+                                    <li>Блог</li>
+                                </ul>
+                            </div>   
+                        
+                            <div class="first-lvl__phone ml-auto">
+                                <span>8 (343) 3456-003</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="navbar__second-lvl">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-6 col-lg-2 col-xl-1 second-lvl__logo">
+                        <img src="assets/img/logo.png" alt="">
+                    </div>
+                  
+                    <div class="col-6 col-md-6 d-lg-none">
+                        <div class="second-lvl__button">
+                            <a id="nav-btn" href="#" class="burger-btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                        </div>
+                    </div> 
+                    <div class="col-12 col-md-12 col-lg-10 col-xl-11">
+                        <div class="second-lvl__floor">
+                            
+                            <ul class="second-lvl__ul">
+                                <li>
+                                    <a href="#">Сервисный центр</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ремонт ноутбуков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Абонентское обслуживание</a>
+                                </li>
+                                <li>
+                                    <a href="#">Установка видео наблюдения</a>
+                                </li>
+                                <li>
+                                    <a href="#">Заправка картриджей</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+    </nav>
+
+    <section id="blog" class="blog">
+    	<div class="container">
+    		<div class="row no-gutters">
+    			<div class="col-xl-3">
+    				<div class="blog__side">
+                        <div class="blog__side-button">
+                            <a href="#" class="blog-btn">
+                               Показать все статьи 
+                            </a>
+                        </div>
+                        <div class="blog__side-list">
+                            <ul>
+                                <li>
+                                    <a href="#">Обслуживание Компьютеров</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ремонт Компьютера Apple</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ремонт Компьютеров</a>
+                                </li>
+                                <li>
+                                    <a href="#">Обслуживание Организаций</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ремонт Ноутбуков</a>
+                                </li>
+                                <li>
+                                    <a href="#">Техобслуживание ПК</a>
+                                </li>
+                                <li>
+                                    <a href="#">Техобслуживание Сетей</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    			</div>
+    			<div class="col-xl-9">
+                    <div class="article-page">
+                        <img src="assets/img/bgs/img7.jpg" alt="">
+                        <h3>Техобслуживание ПК и сетей</h3>
+                        <p>
+                            Позвонив или написав письмо специалисту по ремонту Вас и к чему не обязывает. 21 век считается веком информационных и компьютерных технологий. Наверняка, нет уже таких компаний или людей, которые бы не использовали компьютеры для решения различных проблем. Всем известно, что для того, чтобы компьютер нормально и бесперебойно работал, нужно регулярно проводить его обслуживание. С каждым днём услуга обслуживание компьютеров сетей в разных городах страны становится самой востребованной на рынке услуг. Ни одна фирма или предприятие не застрахованы от сбоя в локальной сети, неисправности и выхода из строя компьютеров. Бывают случаи, когда работники фирмы, занимающиеся обслуживанием ПК не в силах профессионально и быстро починить компьютерную технику.
+                            Поэтому обслуживание сетей компьютеров IT-профессионалом – наилучший выход из возникшей ситуации.   Обратившись к специалисту, Вы можете спать спокойно. Он настоит компьютерные сети, устранит  технические неполадки, защитит информационное поле Вашей компании, а так же увеличит эффективность IT- инфраструктуры компании. Мастера в сфере IT - технологий советуют обслуживание Ваших ПК передавать в руки проверенных фирм, которые профессионально занимаются устранением технических проблем. Они действительно смогут вернуть Ваши компьютеры к жизни за весьма приличную стоимость. Достаточно ввести в поиск запрос «обслуживание компьютеров сетей» и уже рез минуту можно найти отзывы о фирме, которой можно доверить ремонт компьютерной техники. Перед тем, как обращаться к первому встречному специалисту, нужно всё обдумать и проверить. Ведь при плохом обслуживании ПК никто не несёт ответственности. Очень часто лже-специалисты могут сделать некачественную работу, за которую возьмут деньги и исчезнут.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo minus, corporis est, fuga, quo, quasi repellendus asperiores laborum totam impedit tempore? Sint, aliquid, in tenetur molestiae eligendi fuga, ut, pariatur eaque libero optio maxime. Esse provident voluptas placeat doloremque ullam inventore aspernatur doloribus corrupti dolore fugiat! Quod, quisquam, minus. Nam perspiciatis dicta, eaque consequatur reiciendis reprehenderit error, culpa aperiam nobis laborum, voluptatem atque, architecto facere est quo. Molestiae aut placeat ex quo saepe nostrum aspernatur beatae ipsum veritatis. Deleniti quaerat molestias molestiae, eum rerum voluptatibus nostrum voluptate distinctio nam itaque, adipisci eaque aperiam a hic beatae veritatis laboriosam sint quidem saepe fugit? Iure modi blanditiis libero laboriosam magni aut nesciunt hic? Iure quaerat, fuga similique, illum provident asperiores eveniet nisi nihil reiciendis sint nam, ratione dolorum molestias libero impedit nemo beatae accusamus quidem obcaecati amet in! Dolorum sit voluptas architecto corporis obcaecati, est nemo, fugit harum, aut aliquam molestiae iusto, vel minima magni! Debitis at non quae nam minima ex, minus nobis dolorum illum incidunt, rem perferendis, voluptate quo iure repudiandae dolores. Delectus consectetur dolores soluta illum exercitationem ullam eius, iste quos doloremque expedita dolore esse culpa qui sint eligendi. Alias veniam aliquid, nam harum in laborum nostrum neque, ad.
+                        </p>
+                        <div class="article-page__footer">
+                            <div class="article__footer-tags">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            tag
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            tag
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            tag
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            tag
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="article-page__recommend">
+
+                            <div class="row">
+                                <div class="col-12 col-xl-12">
+                                    <div class="article-page__recommend-title">
+                                        <span>Читайте также:</span>
+                                    </div>                                 
+                                </div>    
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="#" class="article-page__recommend-block">
+                                        <div class="article-page__recommend-picture" style="background-image: url(assets/img/blog/1.jpg);">
+                                        </div>
+                                        <div class="article-page__recommend-card-title">
+                                            <span>Обслуживание компьютеров удаленно</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="#" class="article-page__recommend-block">
+                                        <div class="article-page__recommend-picture" style="background-image: url(assets/img/blog/1.jpg);">
+                                        </div>
+                                        <div class="article-page__recommend-card-title">
+                                            <span>Обслуживание компьютеров удаленно</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="#" class="article-page__recommend-block">
+                                        <div class="article-page__recommend-picture" style="background-image: url(assets/img/blog/1.jpg);">
+                                        </div>
+                                        <div class="article-page__recommend-card-title">
+                                            <span>Обслуживание компьютеров удаленно</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    				<div class="articles">
+
+    					<div class="article">
+    						<div class="row">
+    							<div class="col-lg-6 col-xl-6">
+                                    <a href="#">
+    								    <div class="article__preview" style="background-image: url(assets/img/blog/1.jpg);">
+    									
+    								    </div>
+                                    </a>
+    							</div>
+    							<div class="col-lg-6 col-xl-6">
+                                    <div class="article__body">
+        								<div class="article__title">
+                                            <span>
+                                                <a href="#">Техобслуживание ПК и сетей</a>
+                                            </span>                        
+                                        </div>
+                                        <div class="article__intro">
+                                            <p>
+                                                При покупке любого рода техники не забывайте о том, что через день, либо неделю,  Вам придётся звонить или идти к специалистам по их ремонту. Обслуживание компьютеров и сетей является регулярной работой мастера. Такой вид работы включает в себя совокупность задач, процессов и алгоритмов, которые направлены на то, чтобы поддержать работоспособность персонального компьютера.  Вам придётся звонить или идти к специалистам по их...
+                                            </p>
+                                        </div>
+                                        <div class="article__footer">
+                                            <div class="article__footer-tags">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="article__footer-date">
+                                                <span>Публикация:</span>
+                                                <span>21 августа 2046 года</span>
+                                            </div>
+                                        </div>
+                                    </div>
+    							</div>
+    						</div>
+    					</div>
+
+                        <div class="article">
+                            <div class="row">
+                                <div class="col-lg-6 col-xl-6">
+                                    <a href="#">
+                                        <div class="article__preview" style="background-image: url(assets/img/blog/1.jpg);">
+                                        
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-6 col-xl-6">
+                                    <div class="article__body">
+                                        <div class="article__title">
+                                            <span>
+                                                <a href="#">Техобслуживание ПК и сетей</a>
+                                            </span>                        
+                                        </div>
+                                        <div class="article__intro">
+                                            <p>
+                                                При покупке любого рода техники не забывайте о том, что через день, либо неделю,  Вам придётся звонить или идти к специалистам по их ремонту. Обслуживание компьютеров и сетей является регулярной работой мастера. Такой вид работы включает в себя совокупность задач, процессов и алгоритмов, которые направлены на то, чтобы поддержать работоспособность персонального компьютера.  Вам придётся звонить или идти к специалистам по их...
+                                            </p>
+                                        </div>
+                                        <div class="article__footer">
+                                            <div class="article__footer-tags">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            tag
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="article__footer-date">
+                                                <span>Публикация:</span>
+                                                <span>21 августа 2046 года</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+  </div> <!-- end main wrapper -->
+    <footer class="nav-fl">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="nav-fl__floor">
+                        <a id="footer-btn" class="burger-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <ul class="nav-fl__ul">
+                            <li>
+                                <a href="#">Сервисный центр</a>
+                            </li>
+                            <li>
+                                <a href="#">Ремонт ноутбуков</a>
+                            </li>
+                            <li>
+                                <a href="#">Абонентское обслуживание</a>
+                            </li>
+                            <li>
+                                <a href="#">Установка видео наблюдения</a>
+                            </li>
+                            <li>
+                                <a href="#">Заправка картриджей</a>
+                            </li>
+                        </ul> 
+                    </div>                  
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="nav-fl__second">
+                        <div class="nav-fl__logo">
+                            <img src="assets/img/wlogo.png" alt=""> 
+                        </div>
+                        <div class="nav-fl__nav">
+                            <ul>
+                                <li>
+                                    <a href="#">Сервисный центр</a>
+                                </li>
+                                <li>
+                                    <a href="#">Майнинг</a>
+                                </li>
+                                <li>
+                                    <a href="#">Блог</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-fl__left ml-auto">
+                            <div class="nav-fl__choice-city show-trg-s" class="dropbtn">
+                                <div class="location"></div>
+                                <span class="show-trg-s">Москва</span>
+                                <div class="dropdown-triangle"></div>
+                                <div id="city-choice-block-s" class="city-choice-block c-h-b-footer">
+                                    <span class="show-trg-s">
+                                        <div class="location show-trg-s"></div>
+                                        Выберите свой город
+                                        <div class="dropdown-triangle show-trg-s"></div>
+                                    </span>
+                                    <ul>
+                                        <li><a href="" class="show-trg-s">Москва</a></li>
+                                        <li><a href="" class="show-trg-s">Екатеринбург</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="nav-fl__phone">
+                                <span>
+                                    <a href="#">8 (343) 3456-003</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-x-12">
+                <div class="nav-fl__copyr">
+                    <span>Copyright © ITConnection.ru 2019 All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+  </footer>
+
+
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+
+</body>
+</html>

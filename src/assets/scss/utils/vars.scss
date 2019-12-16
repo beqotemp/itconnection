@@ -1,14 +1,32 @@
 // Font
-$mainFont                : 'Montserrat', Helvetica, Arial, sans-serif;
+$mainFont                : 'Roboto', Helvetica, Arial, sans-serif;
 
 // Size
 $mainFontColor           : #101010;
-$mainFontSize            : 18px;
+$mainFontSize            : 16px;
 $mainFontWeight          : 400;
-$mainLineHeight          : 1.4;
+$mainLineHeight          : 24px;
 
 $desktopWidth            : 1280px;
 $smDesktopWidth          : 980px;
 $tableWidth              : 768px;
 $phoneWidth              : 480px;
 $smPhoneWidth            : 320px;
+
+
+
+// Fonst
+$INTRO: 'Intro', $mainFont;
+$ROB: 'Roboto', $mainFont;
+$ROBL: 'Roboto Light', $mainFont;
+$ROBB: 'Roboto Bold', $mainFont;
+$ROBS: 'Roboto Slab Bold', $mainFont;
+$PNL: 'Proxima Nova Light', $mainFont;
+$PNR: 'Proxima Nova Regular', $mainFont;
+$PNSB: 'Proxima Nova Semibold', $mainFont;
+$PNB: 'Proxima Nova Bold', $mainFont;
+$SFB: 'SFUI Display Bold', $mainFont;
+$SFL: 'SFUI Display Light', $mainFont;
+$SFM: 'SFUI Display Medium', $mainFont;
+$SFR: 'SFUI Display Regular', $mainFont;
+$SFS: 'SFUI Display SemiBold', $mainFont;
